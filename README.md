@@ -13,3 +13,6 @@
 * thread_testing_03.py
     * "Fork and then thread" - forks a dynamic number of processes (4-8) and then spawns up to 20 threads to collect results into a queue.
     * Not actually working yet.
+
+## Resources
+* [Multiprocessing Basics](https://pymotw.com/2/multiprocessing/basics.html) - from PyMOTW
