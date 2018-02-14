@@ -5,6 +5,7 @@
 * thread_testing_01.py
     * Using the threading map method within multiprocessing.dummy.
     * Simple, yet prevents processing until results are collected.
+    * [Reference](http://chriskiehl.com/article/parallelism-in-one-line/)
 
 * thread_testing_02.py
     * Using the normal style of threading to allow work while other threads have not returned.
