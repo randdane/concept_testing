@@ -2,19 +2,18 @@
 
 ## Thread Testing
 
-* thread_testing_01.py
+* basic_threading.py
+    * Using the normal style of threading to allow work while other threads have not returned.
+
+* dummy_threading.py
     * Using the threading map method within multiprocessing.dummy.
     * Simple, yet prevents processing until results are collected.
     * [Reference](http://chriskiehl.com/article/parallelism-in-one-line/)
-
-* thread_testing_02.py
-    * Using the normal style of threading to allow work while other threads have not returned.
   
-* thread_testing_03.py
-    * "Fork and then thread" - forks a dynamic number of processes (4-8) and then spawns up to 20 threads to collect results into a queue.
-    * Not fully functional yet.
+* fork_and_thread.py
+    * "Fork and then thread" - forks a dynamic number of processes, spawns a number of threads, and sends results to a queue.
     
-* thread_testing_04.py
+* multiple_threading_examples.py
     * ThreadPoolExecutor example.
 
 ## Resources
